@@ -1,0 +1,171 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+li{
+  list-style: none;
+}
+
+header {
+  height: 60px;
+  width: 100%;
+  background-color: rgba(79, 134, 170, 0.8);
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+}
+
+.header{
+  width: 100%;
+  margin: 0 auto;
+  color: white;
+}
+
+
+.header-logo img{
+  width: 140px;
+  padding: 10px 10px 0;
+  float: left;
+}
+
+.header-menu{
+  line-height: 60px;
+  float: right;
+  font-size: 15px;
+}
+
+.header-login{
+  float: left;
+  padding: 0 15px;
+  margin: 0 15px 0 0;
+  cursor: pointer;
+}
+
+.header-signup{
+  float: left;
+  padding: 0 15px;
+  margin: 0 10px 0 0;
+  cursor: pointer;
+}
+
+.header-login:hover{
+  background-color: rgba(255, 255, 255, 0.3);
+  color: rgba(0, 68, 124, 0.897);
+}
+
+.header-signup:hover{
+  background-color: rgba(255, 255, 255, 0.3);
+  color: rgba(0, 68, 124, 0.897);
+}
+
+body{
+  background-image: url(img/stadium.jpg);
+  background-color:rgba(255,255,255,0.5);
+  background-blend-mode:lighten;
+  background-size: cover;
+}
+
+.top-page{
+  /* background-image: url(img/stadium.jpg);
+  background-color:rgba(255,255,255,0.7);
+  background-blend-mode:lighten;
+  background-size: cover; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto 50px;
+}
+
+.top-page img{
+  width: 300px;
+  margin-left: 90px;
+  display: flex;
+}
+
+.top-message{
+  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-message h1{
+  font-size: 34px;
+  padding-bottom: 20px;
+  text-shadow: 1px 1px rgba(255, 255, 255, 1);
+}
+
+.top-message p{
+  font-size: 18px;
+  text-shadow: 1px 1px rgba(255, 255, 255, 1);
+}
+
+.btn{
+  display: inline-block;
+  padding: 10px 0;
+  width: 200px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid slategray;
+  opacity: 0.8;
+}
+
+.btn:hover{
+  opacity: 1;
+}
+
+.login{
+  margin: 30px 0 20px;
+  background-color: rgb(228, 137, 2);
+}
+
+.facebook{
+  background-color: royalblue;
+  margin: 20px 15px;
+}
+
+.line{
+  background-color: rgb(65, 139, 46);
+  margin-top: 15px;
+}
+
+footer{
+  background-color: rgba(189, 207, 245, 0.521);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+footer li{
+  font-size: 15px;
+  display: inline-block;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
+}
+
+footer li:hover{
+  color: rgba(0, 68, 124, 0.897);
+}
+
+footer a:hover{
+  color: rgba(0, 68, 124, 0.897);
+}
