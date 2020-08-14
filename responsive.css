@@ -1,0 +1,61 @@
+@media(max-width:1200px){
+
+  .top-page img{
+    width: 240px;
+    margin-left: 10px;
+  }
+
+  .top-page h1{
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .top-page p{
+    font-size: 16px;
+    text-align: center;
+  }
+
+
+  .top-message{
+    margin-left: 30px;
+  }
+
+  .btn{
+    margin: 10px 0;
+  }
+
+  .login{
+    margin-top: 20px;
+  }
+
+}
+
+@media(max-width:800px){
+  .top-page img{
+    width: 190px;
+    margin-left: 10px;
+  }
+
+  .top-page h1{
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .top-page p{
+    font-size: 13px;
+    text-align: center;
+  }
+
+
+  .top-message{
+    margin-left: 30px;
+  }
+
+  .btn{
+    margin: 10px 0;
+  }
+
+  .login{
+    margin-top: 20px;
+  }
+}
